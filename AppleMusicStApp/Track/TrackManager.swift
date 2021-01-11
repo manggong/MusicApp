@@ -10,9 +10,12 @@ import UIKit
 import AVFoundation
 
 class TrackManager {
-    // TODO: 프로퍼티 정의하기 - 트랙들, 앨범들, 오늘의 곡
     
-    // TODO: 생성자 정의하기
+    var tracks: [AVPlayerItem] = []
+    var albums: [Album] = []
+    var todaysTrack:AVPlayerItem?
+     
+    
     init() {
     }
 
