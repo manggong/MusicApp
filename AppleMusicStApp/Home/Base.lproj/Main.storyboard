@@ -41,27 +41,28 @@
                                                         <constraint firstAttribute="width" secondItem="IaW-Am-fND" secondAttribute="height" multiplier="1:1" id="cb9-Wx-xyB"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adam Levin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fod-9a-Gce">
-                                                    <rect key="frame" x="3" y="210.5" width="84" height="20"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lost stars" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sv3-ou-uan">
+                                                    <rect key="frame" x="3" y="177" width="157" height="22"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lost stars" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sv3-ou-uan">
-                                                    <rect key="frame" x="3" y="184.5" width="85" height="22"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adam Levin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fod-9a-Gce">
+                                                    <rect key="frame" x="3" y="199.5" width="84" height="19.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="Fod-9a-Gce" firstAttribute="top" secondItem="sv3-ou-uan" secondAttribute="bottom" constant="4" id="A8A-7L-A24"/>
+                                                <constraint firstItem="IaW-Am-fND" firstAttribute="top" secondItem="qi9-AO-jAT" secondAttribute="top" id="Hqp-64-pas"/>
                                                 <constraint firstAttribute="trailing" secondItem="IaW-Am-fND" secondAttribute="trailing" id="Klk-EI-R7a"/>
-                                                <constraint firstItem="IaW-Am-fND" firstAttribute="centerY" secondItem="qi9-AO-jAT" secondAttribute="centerY" id="M5j-no-fWv"/>
+                                                <constraint firstItem="sv3-ou-uan" firstAttribute="bottom" secondItem="IaW-Am-fND" secondAttribute="bottom" constant="20" id="SES-8Y-WoF"/>
                                                 <constraint firstItem="IaW-Am-fND" firstAttribute="leading" secondItem="qi9-AO-jAT" secondAttribute="leading" constant="1" id="TwY-ZR-Y0q"/>
+                                                <constraint firstAttribute="trailing" secondItem="sv3-ou-uan" secondAttribute="trailing" constant="20" id="Xxa-ur-OCY"/>
+                                                <constraint firstItem="Fod-9a-Gce" firstAttribute="bottom" secondItem="sv3-ou-uan" secondAttribute="bottom" constant="20" id="ZDm-wF-0s3"/>
                                                 <constraint firstItem="Fod-9a-Gce" firstAttribute="leading" secondItem="qi9-AO-jAT" secondAttribute="leading" constant="3" id="egy-9e-TAX"/>
                                                 <constraint firstItem="sv3-ou-uan" firstAttribute="leading" secondItem="qi9-AO-jAT" secondAttribute="leading" constant="3" id="jQV-L9-wF6"/>
-                                                <constraint firstItem="sv3-ou-uan" firstAttribute="top" secondItem="IaW-Am-fND" secondAttribute="bottom" constant="-25" id="k99-3p-Xfc"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <connections>
