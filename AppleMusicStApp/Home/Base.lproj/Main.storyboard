@@ -72,21 +72,33 @@
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
-                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="H20-3V-4ge" customClass="TrackCollectionHeaderView" customModule="AppleMusicStApp" customModuleProvider="target">
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TrackCollectionHeaderView" id="H20-3V-4ge" customClass="TrackCollectionHeaderView" customModule="AppleMusicStApp" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="296"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="play.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vaA-Ks-dSu">
-                                            <rect key="frame" x="340" y="198" width="35" height="35"/>
-                                            <color key="tintColor" systemColor="systemPinkColor"/>
-                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
-                                        </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="오늘의 음악" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F5g-Oe-iHu">
                                             <rect key="frame" x="20" y="30" width="114" height="30"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l8C-3P-yg6">
+                                            <rect key="frame" x="24" y="61" width="367" height="200"/>
+                                            <connections>
+                                                <action selector="cardTapped:" destination="H20-3V-4ge" eventType="touchUpInside" id="bfo-us-FU5"/>
+                                            </connections>
+                                        </button>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Llt-cB-gUh">
+                                            <rect key="frame" x="24" y="61" width="367" height="200"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="200" id="oEg-fN-pIk"/>
+                                            </constraints>
+                                        </imageView>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="play.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vaA-Ks-dSu">
+                                            <rect key="frame" x="340" y="198" width="35" height="35"/>
+                                            <color key="tintColor" systemColor="systemPinkColor"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
+                                        </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Play Now" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFk-iz-ueD">
                                             <rect key="frame" x="33" y="172" width="75" height="21"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -101,18 +113,6 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l8C-3P-yg6">
-                                            <rect key="frame" x="24" y="61" width="367" height="200"/>
-                                            <connections>
-                                                <action selector="cardTapped:" destination="H20-3V-4ge" eventType="touchUpInside" id="bfo-us-FU5"/>
-                                            </connections>
-                                        </button>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Llt-cB-gUh">
-                                            <rect key="frame" x="24" y="61" width="367" height="200"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="200" id="oEg-fN-pIk"/>
-                                            </constraints>
-                                        </imageView>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="l8C-3P-yg6" firstAttribute="bottom" secondItem="Llt-cB-gUh" secondAttribute="bottom" id="0Ue-t6-VEc"/>
