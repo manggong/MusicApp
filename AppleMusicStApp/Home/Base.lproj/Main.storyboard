@@ -94,25 +94,23 @@
                                                 <constraint firstAttribute="height" constant="200" id="oEg-fN-pIk"/>
                                             </constraints>
                                         </imageView>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="play.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vaA-Ks-dSu">
-                                            <rect key="frame" x="340" y="198" width="35" height="35"/>
-                                            <color key="tintColor" systemColor="systemPinkColor"/>
-                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
-                                        </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Play Now" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFk-iz-ueD">
-                                            <rect key="frame" x="33" y="172" width="75" height="21"/>
+                                            <rect key="frame" x="33" y="198" width="75" height="21"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MqQ-Oi-kuu">
-                                            <rect key="frame" x="33" y="195" width="108" height="41"/>
-                                            <string key="text">들어라 이것은 
-최고의 음악이다</string>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이것은 음악 이곳은 텍스트 에이리어 2줄로 바뀌는지 봅시다" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MqQ-Oi-kuu">
+                                            <rect key="frame" x="33" y="221" width="317" height="41"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="play.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vaA-Ks-dSu">
+                                            <rect key="frame" x="347" y="222" width="35" height="35"/>
+                                            <color key="tintColor" systemColor="systemPinkColor"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
+                                        </imageView>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="l8C-3P-yg6" firstAttribute="bottom" secondItem="Llt-cB-gUh" secondAttribute="bottom" id="0Ue-t6-VEc"/>
@@ -120,16 +118,16 @@
                                         <constraint firstItem="l8C-3P-yg6" firstAttribute="top" secondItem="Llt-cB-gUh" secondAttribute="top" id="BJE-Oy-4lv"/>
                                         <constraint firstItem="cFk-iz-ueD" firstAttribute="leading" secondItem="Llt-cB-gUh" secondAttribute="leading" constant="9" id="IiF-ew-J7y"/>
                                         <constraint firstItem="MqQ-Oi-kuu" firstAttribute="leading" secondItem="Llt-cB-gUh" secondAttribute="leading" constant="9" id="Nlf-JH-x0g"/>
-                                        <constraint firstItem="vaA-Ks-dSu" firstAttribute="bottom" secondItem="Llt-cB-gUh" secondAttribute="bottom" constant="-27.5" id="Rdm-Q6-PlF"/>
+                                        <constraint firstItem="MqQ-Oi-kuu" firstAttribute="trailing" secondItem="vaA-Ks-dSu" secondAttribute="trailing" constant="-32" id="OHa-Hk-uE0"/>
+                                        <constraint firstItem="vaA-Ks-dSu" firstAttribute="bottom" secondItem="Llt-cB-gUh" secondAttribute="bottom" constant="-3.5" id="Rdm-Q6-PlF"/>
                                         <constraint firstItem="F5g-Oe-iHu" firstAttribute="leading" secondItem="H20-3V-4ge" secondAttribute="leading" constant="20" id="Se0-fG-Wuf"/>
                                         <constraint firstItem="Llt-cB-gUh" firstAttribute="leading" secondItem="H20-3V-4ge" secondAttribute="leading" constant="24" id="V7z-Fm-Ce6"/>
-                                        <constraint firstItem="MqQ-Oi-kuu" firstAttribute="top" secondItem="Llt-cB-gUh" secondAttribute="top" constant="134" id="VK4-y1-cRG"/>
-                                        <constraint firstItem="vaA-Ks-dSu" firstAttribute="trailing" secondItem="Llt-cB-gUh" secondAttribute="trailing" constant="-16" id="dC0-Lq-ayh"/>
+                                        <constraint firstItem="MqQ-Oi-kuu" firstAttribute="top" secondItem="Llt-cB-gUh" secondAttribute="top" constant="160" id="VK4-y1-cRG"/>
+                                        <constraint firstItem="vaA-Ks-dSu" firstAttribute="trailing" secondItem="Llt-cB-gUh" secondAttribute="trailing" constant="-9" id="dC0-Lq-ayh"/>
                                         <constraint firstItem="l8C-3P-yg6" firstAttribute="leading" secondItem="Llt-cB-gUh" secondAttribute="leading" id="eNj-8F-4DU"/>
                                         <constraint firstItem="MqQ-Oi-kuu" firstAttribute="top" secondItem="cFk-iz-ueD" secondAttribute="bottom" constant="2" id="niy-OO-yV9"/>
                                         <constraint firstItem="F5g-Oe-iHu" firstAttribute="top" secondItem="H20-3V-4ge" secondAttribute="top" constant="30" id="ogS-ni-tEJ"/>
                                         <constraint firstAttribute="trailing" secondItem="Llt-cB-gUh" secondAttribute="trailing" constant="23" id="p9w-K8-bjR"/>
-                                        <constraint firstItem="MqQ-Oi-kuu" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="vaA-Ks-dSu" secondAttribute="trailing" constant="-234" id="tcZ-Pm-qHo"/>
                                         <constraint firstItem="Llt-cB-gUh" firstAttribute="top" secondItem="F5g-Oe-iHu" secondAttribute="bottom" constant="1" id="xGA-vG-GjE"/>
                                     </constraints>
                                     <connections>
